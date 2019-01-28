@@ -123,7 +123,7 @@ return array(
 		/**
 		 * A salt to make sure the generated security tokens are not predictable
 		 */
-		 'token_salt'            => '(5(H3ey?)=JJ[.XK,EXEyeun4*[Sz9Xe(@D+]S*5',
+		 'token_salt'            => 'iBvZmSttl2',
 
 		/**
 		 * Allow the Input class to use X headers when present

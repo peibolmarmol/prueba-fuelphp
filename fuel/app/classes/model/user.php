@@ -9,10 +9,10 @@ class Model_User extends Orm\Model
 		'profile_fields',
 		'group',
 		'last_login',
-		'login_hash'
+		'login_hash',
 	);
 
-	protected static $_observers = array(
+/*	protected static $_observers = array(
 		'Orm\Observer_CreatedAt' => array(
 			'events' => array('before_insert'),
 			'mysql_timestamp' => false,
@@ -21,6 +21,6 @@ class Model_User extends Orm\Model
 			'events' => array('before_save'),
 			'mysql_timestamp' => false,
 		),
-	);
+	);*/
 }
 

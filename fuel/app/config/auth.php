@@ -22,6 +22,6 @@
 return array(
     'driver'                 => 'Simpleauth',
     'verify_multiple_logins' => false,
-    'salt'                   => 'y=\kgRNAwq_n#$<7nYWVrLVAb:5Ze_5xsf`T8F-EU.',
+    'salt'                   => 'iyTx6JJEhG',
     'iterations'             => 10000,
 );

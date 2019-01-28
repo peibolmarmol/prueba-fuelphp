@@ -4,7 +4,7 @@
 
 	<div class="card-sharp pad">
 		<!----------form------------->
-		<?php echo Form::open('/user/login'); ?>
+		<?php echo Form::open('/user/register'); ?>
 		<!----------username-->
 		<div class="form-group">
 			<?php echo Form::label('Username', 'username'); ?>
@@ -18,12 +18,12 @@
 		<!----------password--->
 		<div class="form-group">
 			<?php echo Form::label('PASSWORD', 'password'); ?>
-			<?php echo Form::input('password', Input::post('password_confirm'),['class' => 'form-control']); ?>
+			<?php echo Form::input('password', Input::post('password'),['class' => 'form-control']); ?>
 		</div>
 		<!----------confirmar password--->
 		<div class="form-group">
 			<?php echo Form::label('Confirm password', 'password'); ?>
-			<?php echo Form::input('password_confirm', Input::post('confirm'),['class' => 'form-control']); ?>
+			<?php echo Form::input('password_confirm', Input::post('password_confirm'),['class' => 'form-control']); ?>
 		</div>
 		<!----------enviar-------->
 		<div class="actions">

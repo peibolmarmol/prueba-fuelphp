@@ -5,6 +5,7 @@ return array(
 	 'login' => 'users/login',
     'logout' => 'users/logout',
     'register' => 'users/register',
+    'update' => 'users/update',
 	
 	'hello(/:name)?' => array('welcome/hello', 'name' => 'hello'),
 );
